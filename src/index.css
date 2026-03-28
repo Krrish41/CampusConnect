@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gradient-to-br from-indigo-50 via-purple-50 to-emerald-50 text-slate-700 antialiased;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply rounded-[28px] border border-white/70 bg-white/65 shadow-lg shadow-purple-100 backdrop-blur-xl;
+  }
+
+  .soft-card {
+    @apply rounded-2xl border border-white/80 bg-white shadow-lg shadow-purple-100;
+  }
+
+  .section-shell {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .field-input {
+    @apply w-full rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 text-sm text-slate-700 outline-none transition placeholder:text-slate-400 focus:border-indigo-300 focus:ring-4 focus:ring-indigo-100;
+  }
+
+  .primary-button {
+    @apply inline-flex items-center justify-center rounded-full bg-indigo-400 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-200 transition duration-200 hover:-translate-y-0.5 hover:bg-indigo-500 active:translate-y-0;
+  }
+
+  .ghost-button {
+    @apply inline-flex items-center justify-center rounded-full border border-white/70 bg-white/70 px-5 py-3 text-sm font-semibold text-slate-700 transition duration-200 hover:-translate-y-0.5 hover:bg-white;
+  }
+
+  .muted-badge {
+    @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold;
+  }
+
+  .hero-orb {
+    @apply absolute rounded-full blur-3xl;
+  }
+}
