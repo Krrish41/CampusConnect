@@ -1,30 +1,30 @@
 # CampusConnect
 
-🌐 **Live Demo**: [CampusConnect](https://krrish41.github.io/CampusConnect/)
+A modern campus connectivity web application built with React, Vite, Tailwind CSS, and Framer Motion. CampusConnect provides a sleek, responsive interface for connecting students and faculty within a campus ecosystem.
 
-A modern campus connectivity web application built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**. CampusConnect provides a sleek, responsive interface for connecting students and faculty within a campus ecosystem.
+**Live Demo:** [https://krrish41.github.io/CampusConnect/](https://krrish41.github.io/CampusConnect/)
 
 ## Features
 
-* **Modern UI:** Built with React and Tailwind CSS for a clean, responsive design.
-* **Smooth Animations:** Powered by Framer Motion for polished interactions.
-* **Fast Development:** Vite for instant hot module replacement and fast builds.
-* **Responsive Design:** Works seamlessly across desktop, tablet, and mobile devices.
+- **Modern UI**: Built with React and Tailwind CSS for a clean, responsive design
+- **Smooth Animations**: Powered by Framer Motion for polished interactions
+- **Fast Development**: Vite for instant hot module replacement and fast builds
+- **Responsive Design**: Works seamlessly across desktop, tablet, and mobile devices
 
 ## Tech Stack
 
-* **React** — UI library
-* **Vite** — Build tool and dev server
-* **Tailwind CSS** — Utility-first CSS framework
-* **Framer Motion** — Animation library
-* **PostCSS** — CSS processing
+- **React** — UI library
+- **Vite** — Build tool and dev server
+- **Tailwind CSS** — Utility-first CSS framework
+- **Framer Motion** — Animation library
+- **PostCSS** — CSS processing
 
 ## Getting Started
 
 ### Prerequisites
 
-* Node.js (v18 or later)
-* npm or yarn
+- Node.js (v18 or later)
+- npm or yarn
 
 ### Installation
 
