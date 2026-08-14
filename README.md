@@ -1,42 +1,68 @@
 # CampusConnect
-> A modern campus connectivity web application built with React, Vite, Tailwind CSS, and Framer Motion.
 
-## Overview
-CampusConnect provides a sleek, responsive interface tailored for connecting students and faculty within a campus ecosystem. The project aims to solve the communication gap in educational institutions by offering a unified, high-performance platform for campus interactions.
+A modern campus connectivity web application built with React, Vite, Tailwind CSS, and Framer Motion. CampusConnect provides a sleek, responsive interface for connecting students and faculty within a campus ecosystem.
 
-## Highlights / Key Features
-- **Modern UI**: Built with React and Tailwind CSS for a clean design.
-- **Smooth Animations**: Powered by Framer Motion for polished, professional interactions.
-- **Fast Development**: Uses Vite for instant hot module replacement.
-- **Responsive Design**: Works seamlessly across all devices.
+**Live Demo:** [https://krrish41.github.io/CampusConnect/](https://krrish41.github.io/CampusConnect/)
 
-## Getting Started / Installation
+## Features
+
+- **Modern UI**: Built with React and Tailwind CSS for a clean, responsive design
+- **Smooth Animations**: Powered by Framer Motion for polished interactions
+- **Fast Development**: Vite for instant hot module replacement and fast builds
+- **Responsive Design**: Works seamlessly across desktop, tablet, and mobile devices
+
+## Tech Stack
+
+- **React** — UI library
+- **Vite** — Build tool and dev server
+- **Tailwind CSS** — Utility-first CSS framework
+- **Framer Motion** — Animation library
+- **PostCSS** — CSS processing
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or later)
+- npm or yarn
+
+### Installation
+
 1. Clone the repository:
-   \\ash
+   ```bash
    git clone https://github.com/Krrish41/CampusConnect.git
    cd CampusConnect
-   \2. Install dependencies:
-   \\ash
+   ```
+
+2. Install dependencies:
+   ```bash
    npm install
-   \3. Start the development server:
-   \\ash
+   ```
+
+3. Start the development server:
+   ```bash
    npm run dev
-   \
-## Usage
-Navigate the application through the local development server. 
-**Live Demo:** [View Here](https://krrish41.github.io/CampusConnect/)
+   ```
 
-## Built With
-- **React** - UI library
-- **Vite** - Build tool
-- **Tailwind CSS** - Styling framework
-- **Framer Motion** - Animations
+4. Build for production:
+   ```bash
+   npm run build
+   ```
 
-## Contributing
-Contributions are highly encouraged! Please open an issue first to discuss what you would like to change.
+## Project Structure
 
-## License & Credits
-Available under the **MIT License**.
+```
+CampusConnect/
+├── src/
+│   ├── App.jsx      # Main application component
+│   ├── index.css    # Global styles
+│   └── main.jsx     # Entry point
+├── index.html       # HTML template
+├── tailwind.config.js
+├── vite.config.js
+└── package.json
+```
 
-## Support & Contact
-For support, please contact krrish4173@gmail.com or open a GitHub issue.
+## License
+
+This project is open source and available under the MIT License.
